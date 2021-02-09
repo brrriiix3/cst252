@@ -1,0 +1,46 @@
+#tres-cols {
+  display: flex;
+}
+
+.space {
+  padding-right: 20px;
+}
+
+.column {
+  flex: 4;
+}
+
+.column img {
+  width: 425px;
+}
+
+#side {
+  background-color: grey;
+  padding: 10px;
+  overflow: scroll;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  text-align: center;
+}
+
+ul a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: d1de44;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
