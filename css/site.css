@@ -1,5 +1,8 @@
-#tres-cols {
+#two-cols {
   display: flex;
+  background-color: linen;
+  padding: 20px;
+  margin: 20px;
 }
 
 .space {
@@ -15,7 +18,7 @@
 }
 
 #side {
-  background-color: grey;
+  background-color: darkolivegreen;
   padding: 10px;
   overflow: scroll;
 }
@@ -25,8 +28,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: grey;
-  text-align: center;
+  background-color: darkolivegreen;
 }
 
 ul a {
