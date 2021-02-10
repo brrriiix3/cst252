@@ -15,7 +15,7 @@ body {
 
 #content {
   background-color: linen;
-  padding: 15px 40px 300px 15px;
+  padding: 15px 40px 800px 15px;
 }
 
 #files {
@@ -23,7 +23,7 @@ body {
 }
 
 #files img {
-  width: 300px;
+  width: 800px;
   padding-left: 20px;
   padding-right: 10px;
 }
