@@ -1,0 +1,97 @@
+.code-link {
+    text-align: right;
+    font-size: 60%;
+}
+
+.namebadge {
+    float: right;
+    width: 500px;
+}
+
+.namebadge img {
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    position: absolute;
+    top: 210px;
+    right: 80px;
+    width: 450px;
+    /*border: solid 1px black;*/
+    word-wrap: break-word;
+    font-size: 350%;
+    line-height: 90%;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    margin: 20px;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 12px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 25px;
+}
+
+body {
+  background-color: rgb(155, 161, 123);
+  padding: 20px;
+}
+
+img {
+  width: 425px;
+  float: right;
+}
+
+
+#content {
+  background-color: linen;
+  padding: 20px 20px 75px 20px;
+  border: solid 1px #333333;
+  min-height: 80vh;
+}
+
+#code {
+  float: left;
+}
+
+#code img {
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+#output {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+.button {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 12px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 14px 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  float: right;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
