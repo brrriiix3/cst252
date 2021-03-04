@@ -1,19 +1,5 @@
-.code-link {
-    text-align: right;
-    font-size: 60%;
-}
 
-.namebadge {
-    float: right;
-    width: 500px;
-}
-
-.namebadge img {
-    width: 100%;
-    height: auto;
-}
-
-.name {
+#name-results {
     position: absolute;
     top: 210px;
     right: 80px;
@@ -26,6 +12,16 @@
     font-family: "Times New Roman", serif;
     text-align: center;
     margin: 20px;
+}
+
+.namebadge {
+    float: right;
+    width: 500px;
+}
+
+.namebadge img {
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -47,7 +43,6 @@ img {
   width: 425px;
   float: right;
 }
-
 
 #content {
   background-color: linen;
