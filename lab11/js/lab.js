@@ -16,6 +16,7 @@ function sortingHat(str){
 
   var mod = len % 4;
   console.log("Module: ", mod);
+
 // create a conditional that will return Gryffindor,
 // Ravenclaw, Slytherin, and Hufflepuff depending on
 // whether the value of mod is 0, 1, 2, or 3
@@ -42,4 +43,4 @@ function sortingHat(str){
   var house = sortingHat(name);
   newText = "The Sorting Hat has sorted you into " + house + " ";
   document.getElementById("output").innerHTML = newText;
- })
+}
