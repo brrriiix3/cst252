@@ -15,7 +15,9 @@ body {
 
 #content {
   background-color: linen;
-  padding: 15px 40px 800px 15px;
+  padding: 20px;
+  border: solid 1px #333333;
+  min-height: 1090px;
 }
 
 #files {

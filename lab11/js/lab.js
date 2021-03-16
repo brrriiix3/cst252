@@ -43,4 +43,4 @@ function sortingHat(str){
   var house = sortingHat(name);
   newText = "The Sorting Hat has sorted you into " + house + " ";
   document.getElementById("output").innerHTML = newText;
-}
+})
