@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 15 - Object-Oriented Design</title>
+	<script type="text/javascript" src="js/lab.js" defer></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+<body>
+	<div id="content">
+		<img src="img/board.png">
+		<h1>Lab 15: Object-Oriented Design</h1>
+		<p> For this lab we are working with a partner to change our Lab 14 Protoyping to a Class and create
+				an OOP design of the game "Hangman".</p>
+
+		<h1>Challenges</h1>
+		<p> The challenge I had when completing this assignment was figuring out how to execute having a word be chosen from an array.</p>
+
+		<h1>Results</h1>
+		<section>
+			<h3>Step 1: Understand the problem</h3>
+			<li> Set up the game including game board and the players</li>
+			<li> Game loop</li>
+			<li>Draw board</li>
+			<li>Get word/randomize a word</li>
+			<li>Get the players guess</li>
+			<li>Validate guess</li>
+			<li>Check for win/lose condition</li>
+			<li>Play again</li>
+			<br>
+
+			<h3>Step 2: Pseudocode the high level approach</h3>
+			<ul>
+				<li> Set up the game including game board and the players</li>
+					<ul>
+						<li>Create the game board</li>
+						<li>Create the players(computer/person)</li>
+						<li>Choose the word that will be guessed</li>
+						<br>
+					</ul>
+
+				<li> Begin the game loop</li>
+					<ul>
+						<li>Board appears</li>
+						<li>Ask player to enter a letter</li>
+						<li>Validate the leter</li>
+						<ul>
+							<li> If the game ends</li>
+							<ul>
+								<li> Show winning/losing prompt</li>
+							  <li>Stop looping</li>
+							</ul>
+							<li>Else</li>
+							<ul>
+								<li>Show the body part and keep looping</li>
+						  </ul>
+					  </ul>
+					</ul>
+				</ul>
+			<br>
+
+			<h3>Step 3: Assign actions to objects</h3>
+			<ul>
+				<li> Set up the game including game board and the players   [Hangman]</li>
+					<ul>
+						<li>Create the game board  [Board]</li>
+						<li>Create the players(computer/person)  [Players]</li>
+						<li>Choose the word that will be guessed  [Hangman]</li>
+						<br>
+					</ul>
+
+				<li> Begin the game loop  [Hangman]</li>
+					<ul>
+						<li>Board appears  [Board]</li>
+						<li>Ask player to enter a letter  [Player]</li>
+						<li>Validate the leter  [Player]</li>
+						<ul>
+							<li> If the game ends  [Hangman]</li>
+							<ul>
+								<li> Show winning/losing prompt</li>
+							  <li>Stop looping</li>
+							</ul>
+							<li>Else</li>
+							<ul>
+								<li>Show the body part and keep looping  [Hangman]</li>
+						  </ul>
+					  </ul>
+					</ul>
+				</ul>
+				<br>
+			<h3>Step 4: Make javascript-ish pseudocode</h3>
+			<p>//Control game play <br> class Hangman <br> &emsp; //initialize <br>
+				&emsp;&emsp; //set up board <br> &emsp;&emsp;//set up players <br> &emsp;&emsp;
+				//get word that will be guessed</p>
+			<p>//play <br> &emsp; //while loop <br> &emsp;&emsp; //call the board to appear
+			<br> &emsp;&emsp; //ask player to guess letter <br> &emsp;&emsp; //break loop IF game is over <br></p>
+			<p>//Check if game is over <br> &emsp; //check if won <br>  &emsp; //check for loss</p>
+			<p>//Check victory <br> &emsp; //IF board is a winning combo then display a winning message <br> &emsp;
+				//IF is a losing combo then display losing message</p>
+		</section>
+			<ul id ="output">
+			</ul>
+			<br>
+
+		<a class="button" href="../index.html" style= "float:left">HOMEPAGE</a>
+		<a class="button" href="js/lab.js" target="source">JavaScript</a>
+		<a class="button" href="../lab14/js/lab.js" target="source">Lab 14: Class JavaScript</a>
+		<a class="button" href="css/lab.css" style="float:center">CSS</a>
+	 </div>
+	</body>
+</html>
